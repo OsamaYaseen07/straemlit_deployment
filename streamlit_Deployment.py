@@ -2,7 +2,7 @@ import streamlit as st
 import yfinance as yf
 import datetime
 
-ticker_symbol = st.text_input('Type you sumbol')
+ticker_symbol = st.text_input('Type your symbol')
 ticker_Data = yf.Ticker(ticker_symbol)
 
 dc1, dc2 = st.columns(2)
